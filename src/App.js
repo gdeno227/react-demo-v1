@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Header';
 
 function App() {
   return (
     <div className="App">
+      <Header title="demo react poc app 1.0"/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
